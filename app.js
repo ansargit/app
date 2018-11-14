@@ -10,7 +10,7 @@ var todo_items = [
  {_id: 1, todo_item : "Clean the house"},
  {_id: 2, todo_item : "Pay Maintenance charges"},
  {_id: 3, todo_item : "Pay Security tips"},
- {_id: 4, todo_item : "Pay Masjid Chanda"}
+ {_id: 4, todo_item : "Pay Fund"}
 ];
 
 
