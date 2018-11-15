@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "engines": {
     "node": "8.11.2"
@@ -15,5 +15,9 @@
   "dependencies": {
     "express": "^4.16.4",
     "joi": "^14.0.6"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
